@@ -29,8 +29,8 @@ parent: Datasets
 | MERRA2 | 17G | IAC[<sup>10</sup>](#10) | direct | updated | 1980-2015 (v0), 1980-2018 (v1) | tas, tasmax, tasmin, huss, psl, pr, hfss, hfls, rlus, rlds, rsds, rsus, tos | daily, monthly | 2.5 lat x 2.5 lon (same as cmip6-ng) files are consistent with cmip-ng archives, no time period is indicated in filenames |
 | CERRA | 6T | IAC[<sup>11</sup>](#11) | direct | updated | 1985 - 2020 (v1) | 2t, t, r, ... | daily, monthly | 5x5km | sub-daily regional reanalysis data for Europe, [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=overview), [Status](https://docs.google.com/spreadsheets/d/1xfM4TZCGXZm4M4VLQW3XPyAk6IX9vjlwj_p6ymX4aDU/edit#gid=0) |
 | CERRA-Land | 1.8T | IAC[<sup>12</sup>](#12) | direct | updated | 1985 - 2020 (v1) | snom, sro, tp, ... | daily, monthly | 5x5km | [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-land?tab=overview), [Status](https://docs.google.com/spreadsheets/d/1e58ps_yBmxUG0jvL8ZmNNr7Zz_UXuqIZsz4MdRAzvbM/edit#gid=0) |
-| ERA5 | 500G | IAC[<sup>13</sup>](#13), Euler | direct | updated | v1: 1940 - present, v2: 1980 - present | v1: 2t, tp, mx2t, mn2t, v2: [<sup>14</sup>](#14) | daily, monthly | 0.25° x 0.25° | [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
-| ERA5-Land | 2.2T | IAC[<sup>15</sup>](#15) | direct | updated | 1950 - present | 2d, 2t, sd, snom | daily, monthly | 0.1° x 0.1° | [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form) |
+| ERA5 | 500G | IAC[<sup>13</sup>](#13), Euler[<sup>14</sup>](#14) | direct | updated | v1: 1940 - present, v2: 1940 - present | v1: 2t, tp, mx2t, mn2t, v2: [<sup>15</sup>](#15) | daily, monthly | 0.25° x 0.25° | [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
+| ERA5-Land | 2.2T | IAC[<sup>16</sup>](#16) | direct | updated | 1950 - present | 2d, 2t, sd, snom | daily, monthly | 0.1° x 0.1° | [CDS](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-land?tab=form) |
 
 ---
 
@@ -60,6 +60,8 @@ parent: Datasets
 
 <a id="13"></a><sup>13</sup> `/net/atmos/data/era5_cds/processed/`
 
-<a id="14"></a><sup>14</sup> `/net/atmos/data/era5_cds/processed/v2/`, [Variable list and progress](https://www.polybox.ethz.ch/index.php/s/5efYkkFrSVC64lZ)
+<a id="14"></a><sup>14</sup> `/nfs/atmos/c2sm/era5/processed/v2/`, automounted, the automounter mounts filesystem when it is addresse, e.g. with "ls", "cd", before you cannot see it!
 
-<a id="15"></a><sup>15</sup> `/net/atmos/data/era5-land_cds/processed/v1/`
+<a id="15"></a><sup>15</sup> `/net/atmos/data/era5_cds/processed/v2/`, [Variable list and progress](https://www.polybox.ethz.ch/index.php/s/5efYkkFrSVC64lZ)
+
+<a id="16"></a><sup>16</sup> `/net/atmos/data/era5-land_cds/processed/v1/`
