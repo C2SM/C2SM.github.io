@@ -13,7 +13,7 @@ parent: Datasets
 | --------- | ------------------- | -------------- | ----------------|------------------|------------| -----------|
 | CMIP2     |	0.01 TB (500)       |	IAC            |	direct / rsync | frozen (2010-10) |	           | native[<sup>1</sup>](#1) |
 | CMIP3     |	6 TB (40’000)       |	IAC            |	direct / rsync | frozen (2016-12) |	           | native |
-| CMIP5     | 130 TB (700’000)    | IAC            |  direct / rsync | monthly updated  |	           | native |
+| CMIP5     | 130 TB (700’000)    | IAC            |  direct / rsync | frozen (2023/01) |	           | native |
 | CMIP6     |	520 TB (5’500’000)  | IAC, Euler[<sup>4</sup>](#4) |  direct / rsync | weekly updated   |	           | native |
 
 ## CMIP next generation (checked, standardized, regridded to common grid)
